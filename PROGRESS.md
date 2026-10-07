@@ -14,11 +14,11 @@
   - [x] Desain logo dan menu navigasi.
 - [x] **Langkah 4: Pembuatan Header** (✅ Selesai)
   - [x] Membuat Search Bar dan Profil User di bagian atas.
-- [ ] **Langkah 5: Konten Dashboard (Cards & Tables)** (👈 Kita sedang di sini)
-  - [ ] Membuat Card statistik menggunakan CSS Grid.
-  - [ ] Membuat tampilan tabel data sederhana.
-- [ ] **Langkah 6: Responsivitas (Mobile-Friendly)**
-  - [ ] Membuat sidebar bisa disembunyikan/ditampilkan di layar kecil (hamburger menu).
+- [x] **Langkah 5: Konten Dashboard (Cards & Tables)** (✅ Selesai)
+  - [x] Membuat Card statistik menggunakan CSS Grid.
+  - [x] Membuat tampilan tabel data sederhana.
+- [x] **Langkah 6: Responsivitas (Mobile-Friendly)** (✅ Selesai)
+  - [x] Membuat sidebar bisa disembunyikan/ditampilkan di layar kecil (hamburger menu).
 
 ---
 *Goal Anda: Mengetik dan mendesain sendiri! Instruksi akan diberikan langkah demi langkah di chat.*

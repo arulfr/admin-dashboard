@@ -102,6 +102,44 @@ function App() {
                   <p className="text-blue-500 text-sm mt-2 font-medium">Tahun Ini</p>
                 </div>
               </div>
+         
+              {/* Area Tabel */}
+              <div className="mt-6 bg-white rounded-lg shadow overflow-hidden">
+                  <table className="w-full text-left">
+                      <thead className="bg-slate-200 text-slate-700">
+                          <tr>
+                              <th className="p-4">Nama Pegawai</th>
+                              <th className="p-4">Jenis Dokumen</th>
+                              <th className="p-4">Tanggal Masuk</th>
+                              <th className="p-4">Status</th>
+                              <th className="p-4">Aksi</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          {/* Baris 1 */}
+                          <tr className="border-b border-slate-200 hover:bg-slate-50">
+                              <td className="p-4 flex items-center">
+                                  <div className="w-8 h-8 bg-blue-500 rounded-full text-white flex items-center justify-center mr-3 font-bold">B</div>
+                                  Budi Santoso
+                              </td>
+                              <td className="p-4">Ijazah S1</td>
+                              <td className="p-4">10-04-2026</td>
+                              <td className="p-4">
+                                  {/* Hias bagian ini agar terlihat seperti tombol kecil (Pill) */}
+                                  <span className="bg-yellow-200 text-yellow-800 px-2 py-1 rounded-full text-sm font-semibold">
+                                      Menunggu
+                                  </span>
+                              </td>
+                              <td className="p-4">
+                                  <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md">
+                                      Lihat
+                                  </button>
+                              </td>
+                          </tr>
+                          {/* Silakan Anda copy <tr> di atas untuk membuat baris ke-2 dan ke-3! */}
+                      </tbody>
+                  </table>
+              </div>
             </main>
           </div>
       </div>

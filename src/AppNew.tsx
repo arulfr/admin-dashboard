@@ -69,8 +69,12 @@ const AppNew = () => {
                 </div>
             </header>
             {/* Content */}
-            <div className="flex-1 p-4 mt-4 overflow-auto">
-                <div className="grid grid-cols-3 gap-2 mb-2">
+            <div className="flex-1 p-4 overflow-auto">
+                <div className="px-2 mb-4">
+                    <h2 className="text-gray-500 font-bold text-2xl">Dashboard Pegawai</h2>
+                </div>
+                {/* Area Card */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mb-2">
                     {/* card 1 */}
                     <div className="flex flex-col p-4 rounded-lg bg-green-500 hover:bg-green-400">
                         <h2 className="text-2xl font-bold text-white">Data Pegawai</h2>
@@ -89,6 +93,76 @@ const AppNew = () => {
                         <span className="text-white text-xl mt-2 font-bold text-left">35</span>
                         <p className="text-white font-medium mt-1">Total Surat Masuk</p>
                     </div>
+                </div>
+                {/* Area Table */}
+                <div className="mt-6 bg-white rounded-md border-b border-slate-300 shadow overflow-x-auto">
+                    <table className="w-full text-left">
+                        <thead className="bg-slate-300 text-slate-700">
+                                <tr>
+                                    <th className="p-4">Nama Pegawai</th>
+                                    <th className="p-4">Jenis Dokumen</th>
+                                    <th className="p-4">Tanggal Dokumen</th>
+                                    <th className="p-4">Status Dokumen</th>
+                                    <th className="p-4">Opsi</th>
+                                </tr>
+                        </thead>
+                        <tbody>
+                            <tr className="border-b border-slate-100">
+                                <td className="p-4 flex items-center">
+                                    <div className="w-8 h-8 bg-blue-500 flex items-center justify-center text-white rounded-full font-bold mr-2">
+                                        A
+                                    </div>
+                                    Amrullah
+                                </td>
+                                <td className="p-4">Ijazah S1</td>
+                                <td className="p-4">10/11/2024</td>
+                                <td className="p-4">
+                                    <span className="bg-yellow-100 text-yellow-700 px-2 py-1 text-sm font-semibold rounded-full">
+                                        Menunggu Verifikasi
+                                    </span>
+                                </td>
+                                <td className="p-4">
+                                    <button className="px-4 py-2 bg-blue-500 text-white font-bold rounded-xl hover:bg-blue-300">Submit</button>
+                                </td>
+                            </tr>
+                            <tr className="border-b border-slate-100">
+                                <td className="p-4 flex items-center">
+                                    <div className="w-8 h-8 bg-blue-500 flex items-center justify-center text-white rounded-full font-bold mr-2">
+                                        A
+                                    </div>
+                                    Aghna
+                                </td>
+                                <td className="p-4">Ijazah S1</td>
+                                <td className="p-4">10/11/2024</td>
+                                <td className="p-4">
+                                    <span className="bg-green-100 text-green-700 px-2 py-1 text-sm font-semibold rounded-full">
+                                        Diterima
+                                    </span>
+                                </td>
+                                <td className="p-4">
+                                    <button className="px-4 py-2 bg-blue-500 text-white font-bold rounded-xl hover:bg-blue-300">Submit</button>
+                                </td>
+                            </tr>
+                            <tr className="border-b border-slate-100">
+                                <td className="p-4 flex items-center">
+                                    <div className="w-8 h-8 bg-blue-500 flex items-center justify-center text-white rounded-full font-bold mr-2">
+                                        J
+                                    </div>
+                                    Jonas
+                                </td>
+                                <td className="p-4">Ijazah S1</td>
+                                <td className="p-4">10/11/2024</td>
+                                <td className="p-4">
+                                    <span className="bg-red-100 text-red-700 px-2 py-1 text-sm font-semibold rounded-full">
+                                        Rejected
+                                    </span>
+                                </td>
+                                <td className="p-4">
+                                    <button className="px-4 py-2 bg-blue-500 text-white font-bold rounded-xl hover:bg-blue-300">Submit</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
             {/* footer */}
